@@ -215,7 +215,6 @@ function stunAll takes unit me, integer stunTime returns nothing
     set loc[GetConvertedPlayerId(GetOwningPlayer(GetEnumUnit()))] = null
 endfunction
 
-//Call Inoken
 function inoken takes nothing returns nothing
     local real x = GetUnitX(udg_StiylDdummy1) + GetRandomReal(-400.00, 400.00)
     local real y = GetUnitY(udg_StiylDdummy1) + GetRandomReal(-400.00, 400.00)
